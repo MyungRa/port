@@ -1,0 +1,31 @@
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FAF4C0;
+}
+#contact > h2{
+    font-size: 48px;
+    text-align: center;
+    padding-top: 10px;
+}
+.contacts{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    font-size: 20px;
+}
+.contacts__email{
+    text-align: center;
+    width: 240px;
+}
+.contacts__phone{
+    text-align: center;
+    width: 240px;
+    padding-left: 30px;
+}
+footer > p{
+    font-size: 20px;
+    text-align: center;
+}

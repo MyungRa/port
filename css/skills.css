@@ -1,0 +1,24 @@
+#skills > h2{
+    padding-top: 80px;
+    font-size: 48px;
+    text-align: center;
+}
+.skills{
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.skill{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    margin: 20px;
+    padding-top: 20px;
+}
+.skill > img {
+    display: block;
+    margin: 0 auto;
+    width: 198px; 
+    height: 196px;
+}

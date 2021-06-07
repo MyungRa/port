@@ -1,0 +1,25 @@
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    scroll-behavior: smooth;
+}
+#about > h2{
+    padding-top: 60px;
+    font-size: 48px;
+}
+#about > img{
+    width: 296px; 
+    height: 318px;
+    border-radius: 50%;
+    padding-top: 20px;
+}
+#about > p{
+    width: 900px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+    color: gray;
+}

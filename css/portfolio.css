@@ -1,0 +1,68 @@
+#port > h2{
+    font-size: 48px;
+    text-align: center;
+    padding-top: 30px;
+}
+.port{
+    position: relative;
+    height: 600px;
+}
+.single-items{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.active{
+    height: 400px;
+    width: 800px;
+}
+ul[class="stepper"]{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul[class="stepper"] > li{
+    display: inline-block;
+    margin: 0 5px;
+    padding-top: 100px;
+}
+.active-step{
+    color:skyblue;
+}
+button, button:active, button:focus{
+    position: absolute;
+    top: 32%;
+    transform: translate(0, -50%);
+    width: 50px; 
+    height: 30px;
+    border: none; 
+    background-color: transparent;
+    color: black;
+    outline: none;
+}
+button:hover{
+    color: skyblue;
+}
+button:disabled{
+    color: gray;
+}
+.prev{
+    left: 350px;
+}
+.next{
+    right: 350px;
+}
+.tumb{
+    padding-top: 60px;
+}
+.tumb > a > img{
+    width: 550px; 
+    height: 360px;
+}
