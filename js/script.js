@@ -1,6 +1,7 @@
 let curPos = 0;
 function init() {
     new WOW().init();
+    $('button')[0].setAttribute('disabled', 'true')
     jQuery('.item').hide()
     jQuery('.active').show()
 }

@@ -4,11 +4,12 @@
     align-items: center;
     flex-direction: column;
     background-color: #FAF4C0;
+    padding-bottom: 30px;
 }
 #contact > h2{
     font-size: 48px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 30px;
 }
 .contacts{
     display: flex;
