@@ -37,7 +37,9 @@ function next(){
         $('button')[1].setAttribute('disabled', 'true')
     }
 }
-
+function scroll(){
+  window.scrollTo(0, 0);
+}
 $(document).ready(function(){
     init()
 })
